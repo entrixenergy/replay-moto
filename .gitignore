@@ -1,4 +1,4 @@
-moto*.egg-info/*
+*.egg-info/*
 dist/*
 .cache
 .tox

@@ -822,7 +822,6 @@ class Table(CloudFormationModel):
                         result_size += result.size()
                 scanned_count += 1
 
-        results = copy.deepcopy(results)
         if index_name:
             index = self.get_index(index_name)
             results = [index.project(r) for r in results]
